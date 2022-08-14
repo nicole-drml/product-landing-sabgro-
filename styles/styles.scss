@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import '../partials/header';
+@import '../partials/media-queries';
+@import '../partials/home';
+@import '../partials/community';
+
+@font-face {
+  font-family: cenzo-flare;
+  src: url("../assets/cenzo flare/Without Foundry - Cenzo Flare Cond Regular.otf");
+}
+
+@font-face {
+  font-family: made-dilan;
+  src: url("../assets/made dilan/MADE Dillan PERSONAL USE.otf");
+}
+
+$background: #f8f6ee;
+$cream: #ebd8a7;
+$orange: #CB5727;
+$green: #6b8a00;
+
+
+html {
+  font-family: 'Albert Sans', sans-serif;
+}
+
+body {
+  background-color: $background;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.section-wrapper {
+  display: grid;
+  border-style: solid;
+  border-color: red;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 100%;
+  height: 100%
+}
+
+.section-titles {
+  font-family: made-dilan;
+  color: black;
+}
+
+.container {
+  display: grid;
+}
+
+/*section {
+  display: grid;
+  height: 100%;
+  background-image: linear-gradient(to right, $green, $orange);
+} */

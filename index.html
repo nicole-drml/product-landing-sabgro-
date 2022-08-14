@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UAd-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Sabado Grounds</title>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" class="logo" src="./assets/logo psd.png"/>
+      <nav>
+        <ul class="nav-bar">
+          <li class="nav-link"><a href="#menu">Home</a></li>
+          <li class="nav-link"><a href="#community">Community</a></li>
+          <li class="nav-link"><a href="#menu">Menu</a></li>
+          <li class="nav-link"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <section id="home" class="section-wrapper">
+      <div class="container">
+        <h1 class="section-titles">Sabado Grounds</h1>
+      </div>
+
+      <div class="container">
+        <img class="sky" src="./assets/sky.jpg" alt="Sabado Grounds" />
+      </div>
+
+      <div class="container">
+      <p class="companion">Your anyday companion</p>
+    </div>
+    </section>
+    <section id="community" class="section-wrapper">
+        <h1 class="section-titles">Our Community</h1>
+        <video width="" height="" id="video" autoplay muted>
+        <source src="" type="video/mp4" >
+        </video>
+        <div class="caption">
+          <p class="avenue">Avenue for people to experience coffee that would take them on a journney like no other.</p>
+        </div>
+    </section>
+    <section id="menu" class="section-wrapper">
+        <h1 class="section-titles">Menu</h1>
+        <img src="" alt="Menu" />
+    </section>
+    <section id="contact" class="section-wrapper">
+        <h1 class="section-titles">Be part of the journey</h1>
+        <form id="form" target="thankyou" action="thankyou.html" method="get">
+          <label id="name-label">Name:</label>
+            <input id="name" name="name" type="text" autocomplete="off" placeholder="Name" autofocus required></input><br>
+          <label id="email-label">E-mail:</label>
+            <input id="email" type="email" autocomplete="off" placeholder="name@email.com" required></input><br>
+          <label for="message">Message:</label><br>
+            <textarea id="message" minlength="10" maxlength="500" placeholder="How can we serve you better?" required></textarea><br>
+            <button id="submit">Submit</button>
+        </form>
+        <div>
+      <h1 class="section-titles">Socials</h1>
+    </div>
+    </section>
+    <footer class="thankyou">
+      Copyright &#169; Nicole Doromal
+    </footer>
+  </body>
+</html>
