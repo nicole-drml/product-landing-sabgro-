@@ -89,6 +89,7 @@
       font-size: 1em;
       max-width: 300px;
       margin-top: 40px;
+      margin-bottom: 40px;
     }
   }
 
@@ -187,15 +188,18 @@
   }
 
   .grounds {
+
     .video {
       height: 30vh;
     }
 
     p.avenue {
-      font-size: 1.5em;
+      font-size: 1.2em;
       max-width: 600px;
       margin-top: 40px;
+      margin-bottom: 40px;
     }
+
   }
 
     .contact {
@@ -267,7 +271,12 @@
     p.avenue {
       @include home-p-web;
       margin-top: 30px;
+      margin-bottom: 30px;
     }
+    .gallery {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+  }
   }
 
   .menu {
@@ -388,8 +397,14 @@
     }
     p.avenue {
       @include home-p-web;
-      margin-top: 5vh;
+      margin-top: 60px;
+      margin-bottom: 60px;
     }
+
+    .gallery {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+  }
   }
 
   .menu {

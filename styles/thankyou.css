@@ -7,7 +7,7 @@
 body {
   background-color: #18181e;
   color: #CB5727;
-  font-family: made-dilan;
+  font-family: made-dillan;
 }
 
 .header {
@@ -28,8 +28,8 @@ h4 {
 }
 
 @font-face {
-  font-family: made-dilan;
-  src: url("../assets/made dilan/MADE Dillan PERSONAL USE.otf");
+  font-family: made-dillan;
+  src: url("../assets/made-dillan.otf");
 }
 @-webkit-keyframes bounce {
   0% {

@@ -6,15 +6,17 @@
 
 @font-face {
   font-family: cenzo-flare;
-  src: url("../assets/cenzo flare/Without Foundry - Cenzo Flare Cond Regular.otf");
+  src: url("../assets/cenzo-flare.otf");
 }
 @font-face {
+  font-family: made-dillan;
+  src: url("../assets/made-dillan.otf");
   font-family: made-dilan;
-  src: url("../assets/made dilan/MADE Dillan PERSONAL USE.otf");
+  src: url("../assets/made-dilan.otf");
 }
 @font-face {
   font-family: made-kenfolg;
-  src: url("../assets/MADE Kenfolg v2 PERSONAL USE.otf");
+  src: url("../assets/made-kenfolg.otf");
 }
 html {
   font-family: "Poppins", sans-serif;
@@ -42,7 +44,7 @@ body {
   text-align: center;
   letter-spacing: 0.1rem;
   margin-bottom: 30px;
-  font-family: made-dilan;
+  font-family: made-dillan;
 }
 
 header {
@@ -81,7 +83,7 @@ header nav .nav-bar {
   gap: 40px;
 }
 header nav .nav-bar .nav-link {
-  font-family: made-dilan;
+  font-family: made-dillan;
   list-style-type: none;
 }
 header nav .nav-bar .nav-link a:link,
@@ -110,7 +112,7 @@ header nav .nav-bar .nav-link a:active {
   align-self: center;
   margin-top: 30px;
   font-size: 5em;
-  font-family: made-dilan;
+  font-family: made-dillan;
   letter-spacing: 0.1rem;
   margin-bottom: 50px;
 }
@@ -132,6 +134,21 @@ header nav .nav-bar .nav-link a:active {
   cursor: pointer;
   transition: 700ms ease;
   color: #CB5727;
+}
+.grounds .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  gap: 0.5rem;
+  justify-items: center;
+  padding-top: 40px;
+}
+.grounds .gallery div.photo img {
+  width: 100%;
+  border-radius: 2%;
 }
 
 .menu {
@@ -453,6 +470,7 @@ header .nav-toggle-label span::after {
     font-size: 1em;
     max-width: 300px;
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   .contact .socials {
     margin-top: 70px;
@@ -561,9 +579,10 @@ header .nav-toggle-label span::after {
     height: 30vh;
   }
   .grounds p.avenue {
-    font-size: 1.5em;
+    font-size: 1.2em;
     max-width: 600px;
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   .contact .form-title {
     max-width: 400px;
@@ -630,6 +649,11 @@ header .nav-toggle-label span::after {
     font-size: 1.55em;
     max-width: 700px;
     margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .grounds .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   .menu {
     display: grid;
@@ -731,7 +755,12 @@ header .nav-toggle-label span::after {
   .grounds p.avenue {
     font-size: 1.55em;
     max-width: 700px;
-    margin-top: 5vh;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .grounds .gallery {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   .menu {
     display: grid;
