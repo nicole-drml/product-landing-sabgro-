@@ -1,0 +1,89 @@
+.contact {
+  background-color: $black;
+  color: $background;
+
+  h1,
+  h2 {
+    color: $orange;
+  }
+
+  .form-title {
+    @include block-center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+
+ 
+    .label-message {
+      margin-bottom: 5px;
+    }
+
+    .input-form {
+      height: 30px;
+      background: $background;
+      padding: 1em;
+    }
+    
+    .input-form::placeholder {
+        font-family: 'Poppins', sans-serif;
+        color: $orange;
+        opacity: 0.3;
+    }
+
+    .message.input-form {
+      height: 80px;
+    }
+
+    button {
+        cursor: pointer;
+      height: 30px;
+      background: $background;
+      font-family: "Poppins", sans-serif;
+      color: $orange;
+      animation: background-animation 1s infinite alternate;
+      background-size: 900%;
+      background-image: linear-gradient(to left, $black, $background);
+    }
+  }
+
+  .socials {
+    margin-top: 40px;
+
+    .icon {
+      width: 5vw;
+      min-width: 40px;
+      max-width: 80px;
+      background: $black;
+      aspect-ratio: 1 / 1;
+    }
+
+
+    .icon:hover {
+        cursor: pointer;
+    }
+    .instagram:hover {
+        animation: left 700ms infinite;
+    }
+    .spotify:hover {
+        animation: bounce 700ms infinite;
+    }
+    .facebook:hover {
+        animation: right 700ms infinite;
+    }
+
+    
+
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      align-self: baseline;
+      gap: 1.2vw;
+    }
+  }
+}

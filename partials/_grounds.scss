@@ -1,0 +1,16 @@
+.grounds {
+    .video{
+      @include block-center;
+      width: 70vw;
+      border-radius: 1%;
+      margin-top: 20px;
+    }
+    p.avenue {
+      @include text-center;
+    }
+    p.avenue:hover {
+      cursor: pointer;
+      transition: 700ms ease;
+      color: $orange;
+    }
+}

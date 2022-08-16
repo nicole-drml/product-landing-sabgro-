@@ -1,0 +1,45 @@
+.menu {
+  height: 900px;
+
+  .menu.container {
+    margin-left: 30px;
+    display: grid;
+  }
+
+  h1 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 15;
+  }
+  
+  h2,
+  h4 {
+    text-align: center;
+    font-family: made-dilan;
+    padding: 5px;
+  }
+
+  .bowls {
+    margin-top: 20px;
+  }
+
+  .drink,
+  .bowl {
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 16px;
+    margin-left: 5vw;
+  }
+
+  .non-coffee {
+    padding-top: 20px;
+  }
+}
