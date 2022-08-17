@@ -11,7 +11,7 @@
     @include block-center;
     margin-bottom: 20px;
     text-align: center;
-}
+  }
 
   form {
     display: flex;
@@ -19,7 +19,6 @@
     width: 250px;
     margin: auto;
 
- 
     .label-message {
       margin-bottom: 5px;
     }
@@ -29,11 +28,11 @@
       background: $background;
       padding: 1em;
     }
-    
+
     .input-form::placeholder {
-        font-family: 'Poppins', sans-serif;
-        color: $orange;
-        opacity: 0.3;
+      font-family: "Poppins", sans-serif;
+      color: $orange;
+      opacity: 0.3;
     }
 
     .message.input-form {
@@ -61,7 +60,7 @@
       align-self: baseline;
       gap: 1.2vw;
     }
-    
+
     .icon {
       width: 5vw;
       min-width: 40px;
@@ -71,16 +70,16 @@
     }
 
     .icon:hover {
-        cursor: pointer;
+      cursor: pointer;
     }
     .instagram:hover {
-        animation: left 700ms infinite;
+      animation: left 700ms infinite;
     }
     .spotify:hover {
-        animation: bounce 700ms infinite;
+      animation: bounce 700ms infinite;
     }
     .facebook:hover {
-        animation: right 700ms infinite;
+      animation: right 700ms infinite;
     }
   }
 }

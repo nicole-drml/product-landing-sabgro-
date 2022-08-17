@@ -82,7 +82,7 @@ header nav .nav-bar .nav-link a:link,
 header nav .nav-bar .nav-link a:visited {
   text-decoration: none;
   transition: 700ms ease;
-  color: #CB5727;
+  color: #cb5727;
   text-transform: uppercase;
 }
 header nav .nav-bar .nav-link a:hover,
@@ -199,7 +199,7 @@ header nav .nav-bar .nav-link a:active {
 }
 .contact h1,
 .contact h2 {
-  color: #CB5727;
+  color: #cb5727;
 }
 .contact .form-title {
   display: block;
@@ -224,17 +224,17 @@ header nav .nav-bar .nav-link a:active {
 }
 .contact form .input-form::-moz-placeholder {
   font-family: "Poppins", sans-serif;
-  color: #CB5727;
+  color: #cb5727;
   opacity: 0.3;
 }
 .contact form .input-form:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
-  color: #CB5727;
+  color: #cb5727;
   opacity: 0.3;
 }
 .contact form .input-form::placeholder {
   font-family: "Poppins", sans-serif;
-  color: #CB5727;
+  color: #cb5727;
   opacity: 0.3;
 }
 .contact form .message.input-form {
@@ -245,7 +245,7 @@ header nav .nav-bar .nav-link a:active {
   height: 30px;
   background: #f8f6ee;
   font-family: "Poppins", sans-serif;
-  color: #CB5727;
+  color: #cb5727;
   -webkit-animation: background-animation 1s infinite alternate;
           animation: background-animation 1s infinite alternate;
   background-size: 900%;
@@ -462,7 +462,7 @@ header nav .nav-bar .nav-link a:active {
 header .nav-toggle-label span::before,
 header .nav-toggle-label span::after {
     display: block;
-    background: #CB5727;
+    background: #cb5727;
     height: 2px;
     width: 2em;
     border-radius: 2px;
@@ -573,7 +573,7 @@ header .nav-toggle-label span::after {
 header .nav-toggle-label span::before,
 header .nav-toggle-label span::after {
     display: block;
-    background: #CB5727;
+    background: #cb5727;
     height: 2px;
     width: 2em;
     border-radius: 2px;

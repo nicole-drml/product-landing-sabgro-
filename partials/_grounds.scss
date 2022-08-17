@@ -1,37 +1,34 @@
 .grounds {
-    .video{
-      @include block-center;
-      width: 70vw;
-      border-radius: 1%;
-      margin-top: 20px;
-    }
-    p.avenue {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .video {
+    @include block-center;
+    width: 70vw;
+    border-radius: 1%;
+    margin-top: 20px;
+  }
+  p.avenue {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      padding: 5px;
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    gap: 0.5em;
+    justify-items: center;
+    padding-top: 40px;
+
+    div.photo img {
       width: 100%;
-      height: auto;
-      gap: .5em;
-      justify-items: center;
-      padding-top: 40px;
-    
-    
-div.photo img {
-  width: 100%;
-  border-radius: 2%;
-}
+      border-radius: 2%;
+    }
 
-div.photo:hover img {
-  transform: scale(1.6);
-  transition-duration: 1000ms;
+    div.photo:hover img {
+      transform: scale(1.6);
+      transition-duration: 1000ms;
+    }
+  }
 }
-
-}
-}
-

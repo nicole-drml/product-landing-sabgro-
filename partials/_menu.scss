@@ -11,13 +11,13 @@
     align-self: center;
     justify-content: center;
   }
-   
-  h4.title-non-coffee{
+
+  h4.title-non-coffee {
     text-align: center;
     font-family: made-dillan;
     font-size: 15;
   }
-  
+
   h2.title-food,
   h2.title-drinks {
     text-align: center;
@@ -41,7 +41,7 @@
     padding-top: 20px;
   }
 
-  button{
+  button {
     border-radius: 30%;
     padding: 5px;
     text-align: center;
@@ -60,12 +60,12 @@
     }
   }
   button:hover ~ .bowls {
-  .food > .notbestseller {
-    animation: decrease-opacity 800ms forwards;
+    .food > .notbestseller {
+      animation: decrease-opacity 800ms forwards;
+    }
   }
-}
 
-.notbestseller {
-  animation: increase-opacity 800ms forwards;
-}
+  .notbestseller {
+    animation: increase-opacity 800ms forwards;
+  }
 }

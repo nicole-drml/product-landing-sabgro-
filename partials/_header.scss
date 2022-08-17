@@ -1,4 +1,4 @@
-header {  
+header {
   position: fixed;
   top: top;
   z-index: 999;
@@ -29,7 +29,7 @@ header {
     background-color: $background;
 
     .nav-bar {
-        gap: 40px;
+      gap: 40px;
 
       .nav-link {
         font-family: made-dillan;
@@ -52,4 +52,3 @@ header {
     }
   }
 }
-
