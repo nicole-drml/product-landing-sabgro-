@@ -479,11 +479,6 @@ header .nav-toggle-label span::after {
   header .nav-toggle-label span::after {
     top: 7px;
   }
-  .home {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
   .home img.sky {
     display: block;
     margin-left: auto;
