@@ -48,13 +48,13 @@ body {
 header {
   position: fixed;
   top: top;
+  z-index: 999;
   height: 50px;
   grid-template-columns: 5% 5% repeat(10, 8%) 5% 5%;
   grid-template-rows: 10% repeat(4, 20%) 10%;
   background-color: #f8f6ee;
   width: 100%;
   max-width: 2317px;
-  z-index: 999;
 }
 header .logo {
   display: grid;
@@ -75,9 +75,6 @@ header nav {
   background-color: #f8f6ee;
 }
 header nav .nav-bar {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
   gap: 40px;
 }
 header nav .nav-bar .nav-link {

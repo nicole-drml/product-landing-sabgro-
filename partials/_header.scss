@@ -1,13 +1,13 @@
-header {
-  @include fixed-top;
+header {  
+  position: fixed;
+  top: top;
+  z-index: 999;
   height: 50px;
   grid-template-columns: 5% 5% repeat(10, 8%) 5% 5%;
   grid-template-rows: 10% repeat(4, 20%) 10%;
   background-color: $background;
   width: 100%;
-
   max-width: 2317px;
-  z-index: 999;
 
   .logo {
     display: grid;
@@ -29,8 +29,7 @@ header {
     background-color: $background;
 
     .nav-bar {
-        @include navbar-web;
-      gap: 40px;
+        gap: 40px;
 
       .nav-link {
         font-family: made-dillan;
