@@ -4,10 +4,26 @@
   box-sizing: border-box;
 }
 
+html {
+  max-width: 1500px;
+  min-width: 275px;
+  margin: auto;
+}
+
 body {
   background-color: #18181e;
   color: #CB5727;
   font-family: made-dillan;
+}
+
+h1 {
+  font-size: 4.5vw;
+}
+
+h4 {
+  -webkit-animation: bounce 500ms infinite;
+          animation: bounce 500ms infinite;
+  font-size: 3.5vw;
 }
 
 .header {
@@ -20,11 +36,6 @@ body {
   align-items: center;
   margin-top: 80px;
   gap: 30px;
-}
-
-h4 {
-  -webkit-animation: bounce 500ms infinite;
-          animation: bounce 500ms infinite;
 }
 
 @font-face {
