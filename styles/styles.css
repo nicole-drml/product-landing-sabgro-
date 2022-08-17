@@ -93,9 +93,13 @@ header nav .nav-bar .nav-link a:active {
 
 .home p.companion {
   align-self: center;
-  margin-top: 30px;
   font-family: made-dillan;
   margin-bottom: 50px;
+  letter-spacing: 0.1rem;
+  font-size: 3.3rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .grounds .video {
@@ -489,7 +493,6 @@ header .nav-toggle-label span::after {
     max-width: 450px;
   }
   .home p.companion {
-    text-align: center;
     margin-top: 30px;
     font-size: 2rem;
     letter-spacing: 0.1rem;
@@ -600,12 +603,6 @@ header .nav-toggle-label span::after {
     max-width: 450px;
     max-width: 340px;
   }
-  .home p.companion {
-    font-size: 3.3rem;
-    letter-spacing: 0.1rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
   .grounds .video {
     height: 30vh;
   }
@@ -665,12 +662,6 @@ header .nav-toggle-label span::after {
     margin-top: 50px;
     max-width: 450px;
     max-width: 340px;
-  }
-  .home p.companion {
-    font-size: 3.3rem;
-    letter-spacing: 0.1rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
   }
   .grounds .video {
     height: 50vh;
@@ -771,13 +762,12 @@ header .nav-toggle-label span::after {
     display: grid;
     grid-column: 4/5;
     grid-row: 1/4;
-    font-size: 3.3rem;
+    padding: 50px;
     letter-spacing: 0.2rem;
     line-height: 5rem;
-    margin-bottom: 50px;
-    padding: 50px;
     margin-left: 90px;
-    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
   .grounds .video {
     height: 70vh;
