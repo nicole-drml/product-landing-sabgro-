@@ -16,18 +16,15 @@
   font-family: made-kenfolg;
   src: url("../assets/made-kenfolg.otf");
 }
-html {
-  font-family: "Poppins", sans-serif;
-  max-width: 2250px;
-  min-width: 275px;
-  margin: auto;
-}
-
 body {
   background-color: #f8f6ee;
   overflow-x: hidden;
   height: 100%;
   width: 100%;
+  font-family: "Poppins", sans-serif;
+  max-width: 2250px;
+  min-width: 275px;
+  margin: auto;
 }
 
 .section-wrapper {
@@ -94,18 +91,10 @@ header nav .nav-bar .nav-link a:active {
   text-shadow: 0 5px 5px rgba(24, 24, 30, 0.3);
 }
 
-.home img.sky {
-  width: 70vw;
-  max-width: 500px;
-  border-radius: 5%;
-  margin-top: 50px;
-}
 .home p.companion {
   align-self: center;
   margin-top: 30px;
-  font-size: 5em;
   font-family: made-dillan;
-  letter-spacing: 0.1rem;
   margin-bottom: 50px;
 }
 
@@ -128,7 +117,7 @@ header nav .nav-bar .nav-link a:active {
   padding: 5px;
   width: 100%;
   height: auto;
-  gap: 0.5rem;
+  gap: 0.5em;
   justify-items: center;
   padding-top: 40px;
 }
@@ -265,6 +254,12 @@ header nav .nav-bar .nav-link a:active {
 .contact .socials {
   margin-top: 40px;
 }
+.contact .socials .icon-container {
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
+  gap: 1.2vw;
+}
 .contact .socials .icon {
   width: 5vw;
   min-width: 40px;
@@ -286,12 +281,6 @@ header nav .nav-bar .nav-link a:active {
 .contact .socials .facebook:hover {
   -webkit-animation: right 700ms infinite;
           animation: right 700ms infinite;
-}
-.contact .socials .icon-container {
-  display: flex;
-  justify-content: center;
-  align-self: baseline;
-  gap: 1.2vw;
 }
 
 @-webkit-keyframes background-animation {
@@ -617,9 +606,6 @@ header .nav-toggle-label span::after {
     max-width: 340px;
   }
   .home p.companion {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 3.3rem;
     letter-spacing: 0.1rem;
     margin-top: 50px;
@@ -686,9 +672,6 @@ header .nav-toggle-label span::after {
     max-width: 340px;
   }
   .home p.companion {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 3.3rem;
     letter-spacing: 0.1rem;
     margin-top: 50px;
@@ -750,6 +733,7 @@ header .nav-toggle-label span::after {
     display: block;
     height: 6vw;
     width: 100%;
+    max-height: 138px;
   }
   header .logo {
     display: block;
@@ -782,6 +766,7 @@ header .nav-toggle-label span::after {
   .home img.sky {
     display: grid;
     width: 70vw;
+    max-width: 500px;
     height: auto;
     border-radius: 5%;
     grid-column: 1/2;

@@ -4,12 +4,6 @@
   margin-right: auto;
 }
 
-@mixin text-center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @mixin nav-mobile {
   position: absolute;
   justify-content: flex-end;
@@ -76,7 +70,7 @@ margin-right: 5%;
     position: absolute;
 }
 
-@mixin img-spacing {
+@mixin home-img-size {
     width: 70vw;
     border-radius: 5%;
     margin-top: 50px;

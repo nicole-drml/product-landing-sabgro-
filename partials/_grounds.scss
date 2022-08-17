@@ -6,7 +6,9 @@
       margin-top: 20px;
     }
     p.avenue {
-      @include text-center;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .gallery {
@@ -15,7 +17,7 @@
       padding: 5px;
       width: 100%;
       height: auto;
-      gap: .5rem;
+      gap: .5em;
       justify-items: center;
       padding-top: 40px;
     

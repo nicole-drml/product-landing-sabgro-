@@ -41,7 +41,7 @@
     }
 
     button {
-        cursor: pointer;
+      cursor: pointer;
       height: 30px;
       background: $background;
       font-family: "Poppins", sans-serif;
@@ -55,6 +55,13 @@
   .socials {
     margin-top: 40px;
 
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      align-self: baseline;
+      gap: 1.2vw;
+    }
+    
     .icon {
       width: 5vw;
       min-width: 40px;
@@ -62,7 +69,6 @@
       background: $black;
       aspect-ratio: 1 / 1;
     }
-
 
     .icon:hover {
         cursor: pointer;
@@ -75,15 +81,6 @@
     }
     .facebook:hover {
         animation: right 700ms infinite;
-    }
-
-    
-
-    .icon-container {
-      display: flex;
-      justify-content: center;
-      align-self: baseline;
-      gap: 1.2vw;
     }
   }
 }

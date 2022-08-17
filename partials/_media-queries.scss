@@ -70,7 +70,7 @@
 
     img.sky {
       @include block-center;
-      @include img-spacing;
+      @include home-img-size;
     }
     p.companion {
       text-align: center;
@@ -178,12 +178,11 @@
   .home {
     img.sky {
       @include block-center;
-      @include img-spacing;
+      @include home-img-size;
       max-width: 340px;
     }
 
     p.companion {
-      @include text-center;
       @include home-caption;
     }
   }
@@ -256,12 +255,11 @@
   .home {
     img.sky {
       @include block-center;
-      @include img-spacing;
+      @include home-img-size;
       max-width: 340px;
     }
 
     p.companion {
-      @include text-center;
       @include home-caption;
     }
   }
@@ -338,6 +336,7 @@
     display: block;
     height: 6vw;
     width: 100%;
+    max-height: 138px;
 
     .logo {
       display: block;
@@ -372,6 +371,7 @@
     img.sky {
       display: grid;
       width: 70vw;
+      max-width: 500px;
       height: auto;
       border-radius: 5%;
       grid-column: 1 / 2;

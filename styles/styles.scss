@@ -26,18 +26,16 @@ $green: #6b8a00;
 $black: #18181e;
 
 
-html {
-  font-family: 'Poppins', sans-serif;
-  max-width: 2250px;
-  min-width: 275px;
-  margin: auto;
-}
 
 body {
   background-color: $background;
   overflow-x: hidden;
   height: 100%;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
+  max-width: 2250px;
+  min-width: 275px;
+  margin: auto;
 }
 
 .section-wrapper {
