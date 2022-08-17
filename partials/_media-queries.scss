@@ -179,6 +179,7 @@
     img.sky {
       @include block-center;
       @include img-spacing;
+      max-width: 340px;
     }
 
     p.companion {
@@ -256,6 +257,7 @@
     img.sky {
       @include block-center;
       @include img-spacing;
+      max-width: 340px;
     }
 
     p.companion {

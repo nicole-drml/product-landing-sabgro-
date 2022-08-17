@@ -43,3 +43,21 @@
       transform:translateY(0);
     }
   }
+
+  @keyframes decrease-opacity {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: .1;
+    }
+  }
+
+  @keyframes increase-opacity {
+    0% {
+      opacity: .1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

@@ -199,16 +199,20 @@ header nav .nav-bar .nav-link a:active {
   cursor: pointer;
 }
 .menu button:hover ~ .drinks .coffee > .notbestseller {
-  opacity: 0.1;
-  transition: 1000ms;
+  -webkit-animation: decrease-opacity 800ms forwards;
+          animation: decrease-opacity 800ms forwards;
 }
 .menu button:hover ~ .drinks .non-coffee > .notbestseller {
-  opacity: 0.1;
-  transition: 1000ms;
+  -webkit-animation: decrease-opacity 800ms forwards;
+          animation: decrease-opacity 800ms forwards;
 }
 .menu button:hover ~ .bowls .food > .notbestseller {
-  opacity: 0.1;
-  transition: 1000ms;
+  -webkit-animation: decrease-opacity 800ms forwards;
+          animation: decrease-opacity 800ms forwards;
+}
+.menu .notbestseller {
+  -webkit-animation: increase-opacity 800ms forwards;
+          animation: increase-opacity 800ms forwards;
 }
 
 .contact {
@@ -382,6 +386,38 @@ header nav .nav-bar .nav-link a:active {
   }
   100% {
     transform: translateY(0);
+  }
+}
+@-webkit-keyframes decrease-opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@keyframes decrease-opacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@-webkit-keyframes increase-opacity {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes increase-opacity {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @media (max-width: 414px) {
@@ -589,6 +625,7 @@ header .nav-toggle-label span::after {
     border-radius: 5%;
     margin-top: 50px;
     max-width: 450px;
+    max-width: 340px;
   }
   .home p.companion {
     text-align: center;
@@ -657,6 +694,7 @@ header .nav-toggle-label span::after {
     border-radius: 5%;
     margin-top: 50px;
     max-width: 450px;
+    max-width: 340px;
   }
   .home p.companion {
     text-align: center;

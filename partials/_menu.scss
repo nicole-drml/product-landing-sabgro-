@@ -53,18 +53,19 @@
 
   button:hover ~ .drinks {
     .coffee > .notbestseller {
-      opacity: .1;
-      transition: 1000ms;
+      animation: decrease-opacity 800ms forwards;
     }
     .non-coffee > .notbestseller {
-      opacity: .1;
-      transition: 1000ms;
+      animation: decrease-opacity 800ms forwards;
     }
   }
   button:hover ~ .bowls {
   .food > .notbestseller {
-    opacity: .1;
-    transition: 1000ms;
+    animation: decrease-opacity 800ms forwards;
   }
+}
+
+.notbestseller {
+  animation: increase-opacity 800ms forwards;
 }
 }
