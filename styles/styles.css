@@ -94,9 +94,6 @@ header nav .nav-bar .nav-link a:active {
   text-shadow: 0 5px 5px rgba(24, 24, 30, 0.3);
 }
 
-.home {
-  padding-top: 98px;
-}
 .home img.sky {
   width: 70vw;
   max-width: 500px;
