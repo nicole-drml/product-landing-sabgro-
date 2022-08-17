@@ -6,24 +6,22 @@
     display: grid;
   }
 
-  h1 {
+  h1.section-titles {
     display: flex;
     align-self: center;
     justify-content: center;
   }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h4 {
+   
+  h4.title-non-coffee{
+    text-align: center;
+    font-family: made-dillan;
     font-size: 15;
   }
   
-  h2,
-  h4 {
+  h2.title-food,
+  h2.title-drinks {
     text-align: center;
-    font-family: made-dilan;
+    font-family: made-dillan;
     padding: 5px;
   }
 
@@ -42,4 +40,31 @@
   .non-coffee {
     padding-top: 20px;
   }
+
+  button{
+    border-radius: 30%;
+    padding: 5px;
+    text-align: center;
+    animation: background-animation 800ms infinite alternate;
+    background-size: 900%;
+    background-image: linear-gradient(to left, silver, $background);
+    cursor: pointer;
+  }
+
+  button:hover ~ .drinks {
+    .coffee > .notbestseller {
+      opacity: .1;
+      transition: 1000ms;
+    }
+    .non-coffee > .notbestseller {
+      opacity: .1;
+      transition: 1000ms;
+    }
+  }
+  button:hover ~ .bowls {
+  .food > .notbestseller {
+    opacity: .1;
+    transition: 1000ms;
+  }
+}
 }

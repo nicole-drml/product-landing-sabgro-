@@ -136,7 +136,6 @@ header nav .nav-bar .nav-link a:active {
 .grounds .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   padding: 5px;
   width: 100%;
   height: auto;
@@ -148,6 +147,10 @@ header nav .nav-bar .nav-link a:active {
   width: 100%;
   border-radius: 2%;
 }
+.grounds .gallery div.photo:hover img {
+  transform: scale(1.6);
+  transition-duration: 1000ms;
+}
 
 .menu {
   height: 900px;
@@ -156,21 +159,20 @@ header nav .nav-bar .nav-link a:active {
   margin-left: 30px;
   display: grid;
 }
-.menu h1 {
+.menu h1.section-titles {
   display: flex;
   align-self: center;
   justify-content: center;
 }
-.menu h2 {
-  font-size: 20px;
-}
-.menu h4 {
+.menu h4.title-non-coffee {
+  text-align: center;
+  font-family: made-dillan;
   font-size: 15;
 }
-.menu h2,
-.menu h4 {
+.menu h2.title-food,
+.menu h2.title-drinks {
   text-align: center;
-  font-family: made-dilan;
+  font-family: made-dillan;
   padding: 5px;
 }
 .menu .bowls {
@@ -185,6 +187,28 @@ header nav .nav-bar .nav-link a:active {
 }
 .menu .non-coffee {
   padding-top: 20px;
+}
+.menu button {
+  border-radius: 30%;
+  padding: 5px;
+  text-align: center;
+  -webkit-animation: background-animation 800ms infinite alternate;
+          animation: background-animation 800ms infinite alternate;
+  background-size: 900%;
+  background-image: linear-gradient(to left, silver, #f8f6ee);
+  cursor: pointer;
+}
+.menu button:hover ~ .drinks .coffee > .notbestseller {
+  opacity: 0.1;
+  transition: 1000ms;
+}
+.menu button:hover ~ .drinks .non-coffee > .notbestseller {
+  opacity: 0.1;
+  transition: 1000ms;
+}
+.menu button:hover ~ .bowls .food > .notbestseller {
+  opacity: 0.1;
+  transition: 1000ms;
 }
 
 .contact {
@@ -453,6 +477,7 @@ header .nav-toggle-label span::after {
     width: 70vw;
     border-radius: 5%;
     margin-top: 50px;
+    max-width: 450px;
   }
   .home p.companion {
     text-align: center;
@@ -563,6 +588,7 @@ header .nav-toggle-label span::after {
     width: 70vw;
     border-radius: 5%;
     margin-top: 50px;
+    max-width: 450px;
   }
   .home p.companion {
     text-align: center;
@@ -630,6 +656,7 @@ header .nav-toggle-label span::after {
     width: 70vw;
     border-radius: 5%;
     margin-top: 50px;
+    max-width: 450px;
   }
   .home p.companion {
     text-align: center;
@@ -651,7 +678,6 @@ header .nav-toggle-label span::after {
   }
   .grounds .gallery {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
   }
   .menu {
     display: grid;
@@ -744,6 +770,7 @@ header .nav-toggle-label span::after {
     margin-bottom: 50px;
     padding: 50px;
     margin-left: 90px;
+    text-align: center;
   }
   .grounds .video {
     height: 70vh;
@@ -758,7 +785,6 @@ header .nav-toggle-label span::after {
   }
   .grounds .gallery {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
   }
   .menu {
     display: grid;
