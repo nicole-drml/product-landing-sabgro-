@@ -8,11 +8,6 @@
     p.avenue {
       @include text-center;
     }
-    p.avenue:hover {
-      cursor: pointer;
-      transition: 700ms ease;
-      color: $orange;
-    }
 
     .gallery {
       display: grid;

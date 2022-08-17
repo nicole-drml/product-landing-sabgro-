@@ -128,11 +128,6 @@ header nav .nav-bar .nav-link a:active {
   margin-left: auto;
   margin-right: auto;
 }
-.grounds p.avenue:hover {
-  cursor: pointer;
-  transition: 700ms ease;
-  color: #CB5727;
-}
 .grounds .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
