@@ -41,6 +41,7 @@
     }
 
     .nav-toggle-label {
+      @include nav-toggle-label;
       height: 100%;
 
       span,
@@ -144,6 +145,7 @@
     }
 
     .nav-toggle-label {
+      @include nav-toggle-label;
       height: 80%;
 
       span,
